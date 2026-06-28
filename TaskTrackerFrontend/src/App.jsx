@@ -7,7 +7,7 @@ import DashboardStats from "./components/DashboardStats";
 import Toast from "./components/Toast";
 import "./App.css";
 
-const API_URL = import.meta.env.VITE_API_URL + "/api/tasks";
+const API_URL = "https://task-tracker-a4nk.onrender.com/api/tasks";
 
 function App() {
   const [tasks, setTasks] = useState([]);
